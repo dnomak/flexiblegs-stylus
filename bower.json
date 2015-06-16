@@ -1,0 +1,27 @@
+{
+  "name": "flexiblegs-stylus-plus",
+  "version": "4.0.0",
+  "homepage": "http://flexible.gs",
+  "authors": [
+    "@dnomak"
+  ],
+  "description": "Flexible Grid System 4 Stylus Plus",
+  "main": "_flexiblegs.styl",
+  "keywords": [
+    "css",
+    "stylus",
+    "grid",
+    "responsive",
+    "framework",
+    "flexible",
+    "flexbox"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "LICENCE.md",
+    "README.md"
+  ]
+}
