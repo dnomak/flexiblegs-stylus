@@ -15,7 +15,7 @@ $ bower install --save flexiblegs-stylus-plus
 
 ##CodePen
 - Flexible Grid System 4 Stylus Plus
-  - [http://flexible.gs](http://flexible.gs?editors=110)
+  - [http://codepen.io/dnomak/pen/EaZPYw](http://codepen.io/dnomak/pen/EaZPYw?editors=110)
 
 ##License
 - Flexible Grid System is licensed under the MIT license.
