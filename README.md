@@ -4,7 +4,7 @@ Flexible Grid System 4 Stylus Plus
 
 ##Install
 
-####[Bower](http://bower.io)
+###[Bower](http://bower.io)
 ```
 $ bower install flexiblegs-stylus-plus --save
 ```
