@@ -1,6 +1,6 @@
 #[flexiblegs-stylus-plus](http://flexible.gs)
 
-Flexible Grid System 4 Stylus Plus
+Flexible Grid System Stylus Plus
 
 ##Install
 
