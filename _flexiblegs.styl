@@ -1,8 +1,4 @@
-// Flexible Grid System 4.0.1 | Stylus Plus | MIT License | flexible.gs
-
-// wrap
-// wrap()
-// wrap(col)
+// Flexible Grid System 5 | Stylus Plus | MIT License | flexible.gs
 
 wrap(col = false)
   if (col == false)
@@ -18,35 +14,28 @@ wrap(col = false)
       -webkit-box-sizing border-box
       -moz-box-sizing border-box
       box-sizing border-box
+  else if (col == flexbox)
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+    -webkit-flex-direction row
+    -ms-flex-direction row
+    flex-direction row
+    -webkit-flex-wrap wrap
+    -ms-flex-wrap wrap
+    flex-wrap wrap
+    -webkit-justify-content center
+    -ms-justify-content center
+    justify-content center
+    -webkit-align-content flex-start
+    -ms-align-content flex-start
+    align-content flex-start
   else
     > *
       if (col == auto)
         width auto
       else
         width (100% / col)
-
-// flexbox
-// flexbox()
-
-flexbox()
-  display -webkit-flex
-  display -ms-flexbox
-  display flex
-  -webkit-flex-direction row
-  -ms-flex-direction row
-  flex-direction row
-  -webkit-flex-wrap wrap
-  -ms-flex-wrap wrap
-  flex-wrap wrap
-  -webkit-justify-content center
-  -ms-justify-content center
-  justify-content center
-  -webkit-align-content flex-start
-  -ms-align-content flex-start
-  align-content flex-start
-
-// col
-// col(col,row)
 
 col(col = false, row = false)
   if (col == hidden)
@@ -56,22 +45,16 @@ col(col = false, row = false)
   else
     width (100% / row * col)
 
-// gutter
-// gutter(gutter,out)
-
-gutter(gutter = false, out = false)
+gutter(gutter = false, outside = false)
   if gutter
     margin-left (- gutter)
     margin-right (- gutter)
     > *
       padding-left gutter
       padding-right gutter
-  if out
+  if outside
     margin-left 0
     margin-right 0
-
-// align
-// align(align)
 
 align(align = false)
   if (align == top)
@@ -155,9 +138,6 @@ align(align = false)
     -webkit-flex-wrap wrap
     -ms-flex-wrap wrap
     flex-wrap wrap
-
-// breakpoints
-// @media breakpoint
 
 breakpoint-lg = "(max-width: 1024px)"
 breakpoint-md = "(max-width: 768px)"
