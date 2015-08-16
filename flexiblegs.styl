@@ -1,4 +1,4 @@
-// Flexible Grid System 5.3.1 | Stylus Plus | MIT License | flexible.gs
+// Flexible Grid System 5.3.2 | Stylus Plus | MIT License | flexible.gs
 
 wrap(variable1 = false, variable2 = false)
   if (variable1 == false)
@@ -27,6 +27,9 @@ wrap(variable1 = false, variable2 = false)
     -webkit-align-items initial
     -ms-align-items initial
     align-items initial
+    -webkit-column-count auto
+    -moz-column-count auto
+    column-count auto
     > *
       display inline-block
   else if (variable1 == table)
@@ -47,6 +50,9 @@ wrap(variable1 = false, variable2 = false)
     -webkit-align-items initial
     -ms-align-items initial
     align-items initial
+    -webkit-column-count auto
+    -moz-column-count auto
+    column-count auto
     > *
       display table-cell
   else if (variable1 == flexbox)
@@ -69,8 +75,15 @@ wrap(variable1 = false, variable2 = false)
     -webkit-align-items center
     -ms-align-items center
     align-items center
+    -webkit-column-count auto
+    -moz-column-count auto
+    column-count auto
     > *
       display inline-block
+  else if (variable1 == masonry)
+    -webkit-column-count variable2
+    -moz-column-count variable2
+    column-count variable2
   else if (variable1 == gutter)
     width "calc(100% + %s)" % (variable2 + variable2)
     margin-left (- variable2 / 2)
