@@ -1,6 +1,6 @@
 {
   "name": "flexiblegs-stylus-plus",
-  "version": "5.3.3",
+  "version": "5.3.4",
   "homepage": "http://flexible.gs",
   "description": "Flexible Grid System Stylus Plus",
   "keywords": [
@@ -13,7 +13,7 @@
     "flexbox",
     "flex"
   ],
-  "main": "flexiblegs.styl",
+  "main": "flexiblegs-plus.styl",
   "authors": [
     "@dnomak"
   ],

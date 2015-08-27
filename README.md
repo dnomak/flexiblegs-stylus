@@ -4,9 +4,9 @@ Flexible Grid System Stylus Plus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs.styl)
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-plus.styl)
 ```styl
-@import 'flexiblegs'
+@import 'flexiblegs-plus'
 ```
 
 ### [Bower](http://bower.io)
