@@ -9,6 +9,11 @@ Flexible Grid System Stylus Plus
 @import 'flexiblegs-plus'
 ```
 
+### [npm](https://www.npmjs.com/package/flexiblegs-stylus-plus)
+```
+$ npm install --save flexiblegs-stylus-plus
+```
+
 ### [Bower](http://bower.io)
 ```
 $ bower install --save flexiblegs-stylus-plus

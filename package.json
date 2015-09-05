@@ -16,7 +16,8 @@
   "main": "flexiblegs-plus.styl",
   "author": "@dnomak",
   "license": "MIT",
-  "ignore": [
-    "**/.*"
-  ]
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flexiblegs/flexiblegs-stylus-plus.git"
+  }
 }
