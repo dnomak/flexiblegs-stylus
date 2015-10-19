@@ -4,9 +4,9 @@ Flexible Grid System Stylus Plus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-plus.styl)
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-stylus-plus.styl) the file and add the project as follows.
 ```styl
-@import 'flexiblegs-plus'
+@import 'flexiblegs-stylus-plus'
 ```
 
 ### [npm](https://www.npmjs.com/package/flexiblegs-stylus-plus)
@@ -14,7 +14,7 @@ Flexible Grid System Stylus Plus
 $ npm install --save flexiblegs-stylus-plus
 ```
 
-### [Bower](http://bower.io)
+### [bower](http://bower.io/search/?q=flexiblegs-stylus-plus)
 ```
 $ bower install --save flexiblegs-stylus-plus
 ```
