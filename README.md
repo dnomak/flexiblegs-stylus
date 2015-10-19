@@ -4,7 +4,7 @@ Flexible Grid System Stylus Plus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-stylus-plus.styl) the file and add the project as follows.
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-stylus-plus.styl)
 ```styl
 @import 'flexiblegs-stylus-plus'
 ```
