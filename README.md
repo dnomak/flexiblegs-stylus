@@ -1,22 +1,22 @@
-# [flexiblegs-stylus-plus](http://flexible.gs)
+# [flexiblegs-stylus](http://flexible.gs)
 
-Flexible Grid System Stylus Plus
+Flexible Grid System Stylus
 
 ## Install
 
-### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus-plus/master/flexiblegs-stylus-plus.styl)
+### [Download](https://raw.githubusercontent.com/flexiblegs/flexiblegs-stylus/master/flexiblegs-stylus.styl)
 ```styl
-@import 'flexiblegs-stylus-plus'
+@import 'flexiblegs-stylus'
 ```
 
-### [npm](https://www.npmjs.com/package/flexiblegs-stylus-plus)
+### [npm](https://www.npmjs.com/package/flexiblegs-stylus)
 ```
-$ npm install --save flexiblegs-stylus-plus
+$ npm install --save flexiblegs-stylus
 ```
 
-### [bower](http://bower.io/search/?q=flexiblegs-stylus-plus)
+### [bower](http://bower.io/search/?q=flexiblegs-stylus)
 ```
-$ bower install --save flexiblegs-stylus-plus
+$ bower install --save flexiblegs-stylus
 ```
 
 ## License
