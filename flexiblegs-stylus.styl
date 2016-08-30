@@ -1,4 +1,4 @@
-/*! Flexible Grid System 5.5.2 | Stylus | MIT License | flexible.gs */
+/*! Flexible Grid System 5.5.3 | Stylus | MIT License | flexible.gs */
 
 wrap(prop = false, val = false)
   if (prop == false)
@@ -12,6 +12,7 @@ wrap(prop = false, val = false)
     box-sizing border-box
     > *
       display inline-block
+      vertical-align top
   else if (prop == "table")
     display table
     table-layout fixed
