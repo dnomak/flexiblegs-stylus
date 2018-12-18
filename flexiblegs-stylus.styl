@@ -1,4 +1,4 @@
-/*! Flexible Grid System 5.5.3 | Stylus | MIT License | flexible.gs */
+/*! Flexible Grid System 5.6.0 | Stylus | MIT License | dnomak.com/flexiblegs */
 
 wrap(prop = false, val = false)
   if (prop == false)
@@ -117,6 +117,13 @@ wrap(prop = false, val = false)
     align-items flex-end
     > *
       vertical-align bottom
+  else if (prop == "stretch")
+    -webkit-align-content stretch
+    -ms-align-content stretch
+    align-content stretch
+    -webkit-align-items stretch
+    -ms-align-items stretch
+    align-items stretch
   else if (prop == "between")
     -webkit-justify-content space-between
     -ms-justify-content space-between
@@ -164,10 +171,6 @@ wrap(prop = false, val = false)
     margin-right 0
     padding-left (val / 2)px
     padding-right (val / 2)px
-  else if (prop == "masonry")
-    -webkit-column-count val
-    -moz-column-count val
-    column-count val
   else
     > *
       if (prop == "auto")

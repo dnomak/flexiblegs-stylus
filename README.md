@@ -1,4 +1,4 @@
-# [flexiblegs-stylus](http://flexible.gs)
+# [flexiblegs-stylus](https://dnomak.com/flexiblegs/)
 
 Flexible Grid System Stylus
 
@@ -10,17 +10,10 @@ Flexible Grid System Stylus
 ```
 
 ### [npm](https://www.npmjs.com/package/flexiblegs-stylus)
-```
+```bash
 $ npm install --save flexiblegs-stylus
-```
-
-### [bower](http://bower.io/search/?q=flexiblegs-stylus)
-```
-$ bower install --save flexiblegs-stylus
 ```
 
 ## License
 - Flexible Grid System is licensed under the MIT license.
   - [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
-- Flexible Grid System documentation is licensed under a Creative Commons Attribution 4.0 International License.
-  - [http://creativecommons.org/licenses/by/4.0](http://creativecommons.org/licenses/by/4.0)
