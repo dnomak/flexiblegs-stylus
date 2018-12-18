@@ -6,6 +6,10 @@
   "author": "@dnomak <me@dnomak.com>",
   "license": "MIT",
   "main": "flexiblegs-stylus.styl",
+  "keywords": [
+    "css",
+    "stylus"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/flexiblegs/flexiblegs-stylus.git"
